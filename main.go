@@ -9,7 +9,7 @@ import (
 func main() {
 	// Hangman project.
 
-	words := []string{"php", "js", "golang"}
+	words := []string{"php", "js", "golang","mysql","mariadb","html","react","github"}
 	word := words[rand.Intn(len(words))]
 	lives := 5
 	blanks := []string{}
